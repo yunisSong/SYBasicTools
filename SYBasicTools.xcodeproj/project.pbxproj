@@ -3,11 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7894CA5027DEEA7D002A00D5 /* String+loadXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7894CA4F27DEEA7D002A00D5 /* String+loadXIB.swift */; };
+		41F9A537C3D415AA4D2DBD96 /* Pods_SYBasicTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCEA56DAC7B0CF562C9412 /* Pods_SYBasicTools.framework */; };
+		7831A4C2282CE7FA00E28D98 /* UITableView+layoutHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4C1282CE7FA00E28D98 /* UITableView+layoutHelp.swift */; };
+		7831A4C7282CE81000E28D98 /* SYTableViewHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4C6282CE81000E28D98 /* SYTableViewHelp.swift */; };
+		7831A4CD282CE93600E28D98 /* SYThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4CC282CE93600E28D98 /* SYThen.swift */; };
+		7831A4D6282CECDC00E28D98 /* UITableView+registerNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4D5282CECDC00E28D98 /* UITableView+registerNib.swift */; };
+		7831A4DE282CEDD500E28D98 /* BaseCellLayoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4DD282CEDD500E28D98 /* BaseCellLayoutModel.swift */; };
+		7831A4E3282CEE7100E28D98 /* UIView+SSYCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4E2282CEE7100E28D98 /* UIView+SSYCompatible.swift */; };
+		7831A4E8282CEFD300E28D98 /* SYBaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4E7282CEFD300E28D98 /* SYBaseFunction.swift */; };
+		7831A502282CF3F200E28D98 /* UITableView+MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */; };
+		7831A51C282CF50000E28D98 /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */; };
+		785D9052282CF93A00EA87DF /* SYDemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9051282CF93A00EA87DF /* SYDemoTableViewCell.swift */; };
+		785D9059282CF9F400EA87DF /* UIColor+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9056282CF9F400EA87DF /* UIColor+config.swift */; };
+		785D905A282CF9F400EA87DF /* SYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9057282CF9F400EA87DF /* SYConfig.swift */; };
+		785D905B282CF9F400EA87DF /* UIFont+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9058282CF9F400EA87DF /* UIFont+config.swift */; };
+		785D9068282CFA3900EA87DF /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9060282CFA3800EA87DF /* UIColorExtension.swift */; };
+		785D9069282CFA3900EA87DF /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9062282CFA3800EA87DF /* UIColorInputError.swift */; };
+		785D906A282CFA3900EA87DF /* macOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 785D9064282CFA3800EA87DF /* macOS-Info.plist */; };
+		785D906B282CFA3900EA87DF /* watchOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 785D9065282CFA3800EA87DF /* watchOS-Info.plist */; };
+		785D906C282CFA3900EA87DF /* iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 785D9066282CFA3900EA87DF /* iOS-Info.plist */; };
+		785D906D282CFA3900EA87DF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9067282CFA3900EA87DF /* StringExtension.swift */; };
+		785D9072282CFA7A00EA87DF /* UILabel+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9071282CFA7A00EA87DF /* UILabel+config.swift */; };
+		785D9078282CFCA900EA87DF /* SYDemo1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9076282CFCA900EA87DF /* SYDemo1TableViewCell.swift */; };
+		785D9079282CFCA900EA87DF /* SYDemo1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785D9077282CFCA900EA87DF /* SYDemo1TableViewCell.xib */; };
+		785D907E282CFE5700EA87DF /* SYBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D907D282CFE5700EA87DF /* SYBaseCell.swift */; };
+		785D9083282CFEBC00EA87DF /* SYBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9082282CFEBC00EA87DF /* SYBaseModel.swift */; };
+		785D9089282CFFFE00EA87DF /* SYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9088282CFFFE00EA87DF /* SYBaseViewController.swift */; };
+		785D908E282D003A00EA87DF /* BaseScrollContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D908D282D003A00EA87DF /* BaseScrollContainerViewController.swift */; };
+		785D9093282D005600EA87DF /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9092282D005600EA87DF /* BaseTableViewController.swift */; };
+		785D9098282D006800EA87DF /* BaseCollectionViewCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9097282D006800EA87DF /* BaseCollectionViewCtr.swift */; };
+		785D909D282D00C100EA87DF /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D909C282D00C100EA87DF /* NSObject+ClassName.swift */; };
+		7894CA5027DEEA7D002A00D5 /* String+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7894CA4F27DEEA7D002A00D5 /* String+loadNib.swift */; };
 		8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */; };
 		8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */; };
 		8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2FA27DD045D00C4D9CA /* ViewController.swift */; };
@@ -44,7 +74,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7894CA4F27DEEA7D002A00D5 /* String+loadXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+loadXIB.swift"; sourceTree = "<group>"; };
+		73A2BD4544589159383EBA46 /* Pods-SYBasicTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYBasicTools.release.xcconfig"; path = "Target Support Files/Pods-SYBasicTools/Pods-SYBasicTools.release.xcconfig"; sourceTree = "<group>"; };
+		7831A4C1282CE7FA00E28D98 /* UITableView+layoutHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+layoutHelp.swift"; sourceTree = "<group>"; };
+		7831A4C6282CE81000E28D98 /* SYTableViewHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYTableViewHelp.swift; sourceTree = "<group>"; };
+		7831A4CC282CE93600E28D98 /* SYThen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYThen.swift; sourceTree = "<group>"; };
+		7831A4D5282CECDC00E28D98 /* UITableView+registerNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+registerNib.swift"; sourceTree = "<group>"; };
+		7831A4DD282CEDD500E28D98 /* BaseCellLayoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellLayoutModel.swift; sourceTree = "<group>"; };
+		7831A4E2282CEE7100E28D98 /* UIView+SSYCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SSYCompatible.swift"; sourceTree = "<group>"; };
+		7831A4E7282CEFD300E28D98 /* SYBaseFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYBaseFunction.swift; sourceTree = "<group>"; };
+		7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+MJRefresh.swift"; sourceTree = "<group>"; };
+		7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SnapKit.swift"; sourceTree = "<group>"; };
+		785D9051282CF93A00EA87DF /* SYDemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYDemoTableViewCell.swift; sourceTree = "<group>"; };
+		785D9056282CF9F400EA87DF /* UIColor+config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+config.swift"; sourceTree = "<group>"; };
+		785D9057282CF9F400EA87DF /* SYConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYConfig.swift; sourceTree = "<group>"; };
+		785D9058282CF9F400EA87DF /* UIFont+config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+config.swift"; sourceTree = "<group>"; };
+		785D9060282CFA3800EA87DF /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		785D9061282CFA3800EA87DF /* HEXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXColor.h; sourceTree = "<group>"; };
+		785D9062282CFA3800EA87DF /* UIColorInputError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorInputError.swift; sourceTree = "<group>"; };
+		785D9064282CFA3800EA87DF /* macOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "macOS-Info.plist"; sourceTree = "<group>"; };
+		785D9065282CFA3800EA87DF /* watchOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "watchOS-Info.plist"; sourceTree = "<group>"; };
+		785D9066282CFA3900EA87DF /* iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; sourceTree = "<group>"; };
+		785D9067282CFA3900EA87DF /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		785D9071282CFA7A00EA87DF /* UILabel+config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+config.swift"; sourceTree = "<group>"; };
+		785D9076282CFCA900EA87DF /* SYDemo1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYDemo1TableViewCell.swift; sourceTree = "<group>"; };
+		785D9077282CFCA900EA87DF /* SYDemo1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYDemo1TableViewCell.xib; sourceTree = "<group>"; };
+		785D907D282CFE5700EA87DF /* SYBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYBaseCell.swift; sourceTree = "<group>"; };
+		785D9082282CFEBC00EA87DF /* SYBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYBaseModel.swift; sourceTree = "<group>"; };
+		785D9088282CFFFE00EA87DF /* SYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYBaseViewController.swift; sourceTree = "<group>"; };
+		785D908D282D003A00EA87DF /* BaseScrollContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScrollContainerViewController.swift; sourceTree = "<group>"; };
+		785D9092282D005600EA87DF /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		785D9097282D006800EA87DF /* BaseCollectionViewCtr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCtr.swift; sourceTree = "<group>"; };
+		785D909C282D00C100EA87DF /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		7894CA4F27DEEA7D002A00D5 /* String+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+loadNib.swift"; sourceTree = "<group>"; };
 		8BDAF2F327DD045D00C4D9CA /* SYBasicTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYBasicTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +125,8 @@
 		8BDAF33827DD0A3200C4D9CA /* String+trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+trim.swift"; sourceTree = "<group>"; };
 		8BDAF33D27DD0DAA00C4D9CA /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
 		8BDAF35C27DEC9AD00C4D9CA /* todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		B45BEA0A68B8A8ABA1560E94 /* Pods-SYBasicTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYBasicTools.debug.xcconfig"; path = "Target Support Files/Pods-SYBasicTools/Pods-SYBasicTools.debug.xcconfig"; sourceTree = "<group>"; };
+		CFFCEA56DAC7B0CF562C9412 /* Pods_SYBasicTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYBasicTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F9A537C3D415AA4D2DBD96 /* Pods_SYBasicTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +155,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1614477153171B4E482B5A1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B45BEA0A68B8A8ABA1560E94 /* Pods-SYBasicTools.debug.xcconfig */,
+				73A2BD4544589159383EBA46 /* Pods-SYBasicTools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7831A4BF282CE6F700E28D98 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				7831A4D4282CEBD700E28D98 /* UIImageView */,
+				7831A4C0282CE7BD00E28D98 /* UITableView */,
+				7831A4E2282CEE7100E28D98 /* UIView+SSYCompatible.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		7831A4C0282CE7BD00E28D98 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				7831A4C1282CE7FA00E28D98 /* UITableView+layoutHelp.swift */,
+				7831A4C6282CE81000E28D98 /* SYTableViewHelp.swift */,
+				7831A4D5282CECDC00E28D98 /* UITableView+registerNib.swift */,
+				7831A4DD282CEDD500E28D98 /* BaseCellLayoutModel.swift */,
+				785D907D282CFE5700EA87DF /* SYBaseCell.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		7831A4CB282CE91100E28D98 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7831A517282CF4B400E28D98 /* SYVendor */,
+				7831A4FA282CF37A00E28D98 /* Config */,
+				7831A4CC282CE93600E28D98 /* SYThen.swift */,
+				7831A4E7282CEFD300E28D98 /* SYBaseFunction.swift */,
+				785D9082282CFEBC00EA87DF /* SYBaseModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7831A4D4282CEBD700E28D98 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		7831A4FA282CF37A00E28D98 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				785D909C282D00C100EA87DF /* NSObject+ClassName.swift */,
+				785D9057282CF9F400EA87DF /* SYConfig.swift */,
+				785D9056282CF9F400EA87DF /* UIColor+config.swift */,
+				785D9058282CF9F400EA87DF /* UIFont+config.swift */,
+				785D9071282CFA7A00EA87DF /* UILabel+config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		7831A517282CF4B400E28D98 /* SYVendor */ = {
+			isa = PBXGroup;
+			children = (
+				785D905F282CFA3800EA87DF /* HEXColor */,
+				7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */,
+				7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */,
+			);
+			path = SYVendor;
+			sourceTree = "<group>";
+		};
+		785D9050282CF91D00EA87DF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				785D9051282CF93A00EA87DF /* SYDemoTableViewCell.swift */,
+				785D9076282CFCA900EA87DF /* SYDemo1TableViewCell.swift */,
+				785D9077282CFCA900EA87DF /* SYDemo1TableViewCell.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		785D905F282CFA3800EA87DF /* HEXColor */ = {
+			isa = PBXGroup;
+			children = (
+				785D9060282CFA3800EA87DF /* UIColorExtension.swift */,
+				785D9061282CFA3800EA87DF /* HEXColor.h */,
+				785D9062282CFA3800EA87DF /* UIColorInputError.swift */,
+				785D9063282CFA3800EA87DF /* Resources */,
+				785D9067282CFA3900EA87DF /* StringExtension.swift */,
+			);
+			path = HEXColor;
+			sourceTree = "<group>";
+		};
+		785D9063282CFA3800EA87DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				785D9064282CFA3800EA87DF /* macOS-Info.plist */,
+				785D9065282CFA3800EA87DF /* watchOS-Info.plist */,
+				785D9066282CFA3900EA87DF /* iOS-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		785D9087282CFFB000EA87DF /* BaseCtr */ = {
+			isa = PBXGroup;
+			children = (
+				785D9088282CFFFE00EA87DF /* SYBaseViewController.swift */,
+				785D908D282D003A00EA87DF /* BaseScrollContainerViewController.swift */,
+				785D9092282D005600EA87DF /* BaseTableViewController.swift */,
+				785D9097282D006800EA87DF /* BaseCollectionViewCtr.swift */,
+			);
+			path = BaseCtr;
+			sourceTree = "<group>";
+		};
 		8BDAF2EA27DD045D00C4D9CA = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +277,8 @@
 				8BDAF30C27DD045F00C4D9CA /* SYBasicToolsTests */,
 				8BDAF31727DD045F00C4D9CA /* SYBasicToolsUITests */,
 				8BDAF2F427DD045D00C4D9CA /* Products */,
+				1614477153171B4E482B5A1F /* Pods */,
+				CE8A876C3278771AC1873389 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +299,7 @@
 				8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */,
 				8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */,
 				8BDAF2FA27DD045D00C4D9CA /* ViewController.swift */,
+				785D9050282CF91D00EA87DF /* Demo */,
 				8BDAF2FC27DD045D00C4D9CA /* Main.storyboard */,
 				8BDAF2FF27DD045F00C4D9CA /* Assets.xcassets */,
 				8BDAF30127DD045F00C4D9CA /* LaunchScreen.storyboard */,
@@ -148,6 +330,9 @@
 		8BDAF32927DD047100C4D9CA /* SYBasicTools */ = {
 			isa = PBXGroup;
 			children = (
+				785D9087282CFFB000EA87DF /* BaseCtr */,
+				7831A4CB282CE91100E28D98 /* Base */,
+				7831A4BF282CE6F700E28D98 /* UIView */,
 				8BDAF32A27DD047700C4D9CA /* String */,
 				8BDAF32E27DD04C300C4D9CA /* SSYCompatibleProtocol.swift */,
 			);
@@ -160,9 +345,17 @@
 				8BDAF33327DD054E00C4D9CA /* String2Image.swift */,
 				8BDAF33827DD0A3200C4D9CA /* String+trim.swift */,
 				8BDAF35C27DEC9AD00C4D9CA /* todo.txt */,
-				7894CA4F27DEEA7D002A00D5 /* String+loadXIB.swift */,
+				7894CA4F27DEEA7D002A00D5 /* String+loadNib.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		CE8A876C3278771AC1873389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCEA56DAC7B0CF562C9412 /* Pods_SYBasicTools.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +365,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BDAF31D27DD046000C4D9CA /* Build configuration list for PBXNativeTarget "SYBasicTools" */;
 			buildPhases = (
+				CF470E2D065AEE88A9C62B2A /* [CP] Check Pods Manifest.lock */,
 				8BDAF2EF27DD045D00C4D9CA /* Sources */,
 				8BDAF2F027DD045D00C4D9CA /* Frameworks */,
 				8BDAF2F127DD045D00C4D9CA /* Resources */,
+				AB5ABD432D4A517780A2F7FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,8 +465,12 @@
 			files = (
 				8BDAF35D27DEC9AD00C4D9CA /* todo.txt in Resources */,
 				8BDAF30327DD045F00C4D9CA /* LaunchScreen.storyboard in Resources */,
+				785D906C282CFA3900EA87DF /* iOS-Info.plist in Resources */,
+				785D906B282CFA3900EA87DF /* watchOS-Info.plist in Resources */,
 				8BDAF30027DD045F00C4D9CA /* Assets.xcassets in Resources */,
 				8BDAF2FE27DD045D00C4D9CA /* Main.storyboard in Resources */,
+				785D9079282CFCA900EA87DF /* SYDemo1TableViewCell.xib in Resources */,
+				785D906A282CFA3900EA87DF /* macOS-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +490,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB5ABD432D4A517780A2F7FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYBasicTools/Pods-SYBasicTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYBasicTools/Pods-SYBasicTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYBasicTools/Pods-SYBasicTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF470E2D065AEE88A9C62B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYBasicTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BDAF2EF27DD045D00C4D9CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785D9078282CFCA900EA87DF /* SYDemo1TableViewCell.swift in Sources */,
+				785D908E282D003A00EA87DF /* BaseScrollContainerViewController.swift in Sources */,
+				7831A502282CF3F200E28D98 /* UITableView+MJRefresh.swift in Sources */,
+				785D9059282CF9F400EA87DF /* UIColor+config.swift in Sources */,
 				8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */,
 				8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */,
+				7831A4DE282CEDD500E28D98 /* BaseCellLayoutModel.swift in Sources */,
+				7831A4C7282CE81000E28D98 /* SYTableViewHelp.swift in Sources */,
+				785D9098282D006800EA87DF /* BaseCollectionViewCtr.swift in Sources */,
+				785D9072282CFA7A00EA87DF /* UILabel+config.swift in Sources */,
+				7831A4E8282CEFD300E28D98 /* SYBaseFunction.swift in Sources */,
+				7831A4E3282CEE7100E28D98 /* UIView+SSYCompatible.swift in Sources */,
+				785D9068282CFA3900EA87DF /* UIColorExtension.swift in Sources */,
+				785D9093282D005600EA87DF /* BaseTableViewController.swift in Sources */,
+				785D905B282CF9F400EA87DF /* UIFont+config.swift in Sources */,
+				7831A4C2282CE7FA00E28D98 /* UITableView+layoutHelp.swift in Sources */,
 				8BDAF33927DD0A3200C4D9CA /* String+trim.swift in Sources */,
+				785D907E282CFE5700EA87DF /* SYBaseCell.swift in Sources */,
+				785D909D282D00C100EA87DF /* NSObject+ClassName.swift in Sources */,
+				785D9052282CF93A00EA87DF /* SYDemoTableViewCell.swift in Sources */,
+				785D9083282CFEBC00EA87DF /* SYBaseModel.swift in Sources */,
 				8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */,
-				7894CA5027DEEA7D002A00D5 /* String+loadXIB.swift in Sources */,
+				7831A4D6282CECDC00E28D98 /* UITableView+registerNib.swift in Sources */,
+				785D9089282CFFFE00EA87DF /* SYBaseViewController.swift in Sources */,
+				785D9069282CFA3900EA87DF /* UIColorInputError.swift in Sources */,
+				7831A4CD282CE93600E28D98 /* SYThen.swift in Sources */,
+				7894CA5027DEEA7D002A00D5 /* String+loadNib.swift in Sources */,
+				7831A51C282CF50000E28D98 /* UIView+SnapKit.swift in Sources */,
+				785D905A282CF9F400EA87DF /* SYConfig.swift in Sources */,
 				8BDAF33427DD054E00C4D9CA /* String2Image.swift in Sources */,
+				785D906D282CFA3900EA87DF /* StringExtension.swift in Sources */,
 				8BDAF32F27DD04C300C4D9CA /* SSYCompatibleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +745,7 @@
 		};
 		8BDAF31E27DD046000C4D9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45BEA0A68B8A8ABA1560E94 /* Pods-SYBasicTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -497,6 +764,7 @@
 		};
 		8BDAF31F27DD046000C4D9CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A2BD4544589159383EBA46 /* Pods-SYBasicTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
