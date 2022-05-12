@@ -5,7 +5,7 @@
 
 demo1 快速加载一个列表
 
-```objective_c
+```swift
 override func viewDidLoad() {
     super.viewDidLoad()
     let tableview = UITableView.init().with {
