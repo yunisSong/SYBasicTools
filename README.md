@@ -6,21 +6,22 @@
 demo1 快速加载一个列表
 
 ```
-    override func viewDidLoad() {
-            super.viewDidLoad()
-    		let tableview = UITableView.init().with {
-    			$0.ssy.addHelp { (help) in
-    				help.cellID = "SYDemo1TableViewCell"
-    			}
-    		}
-    		tableview.help.dataSource = dataSource()
-    		self.view.addSubview(tableview)
-    		tableview.ssy_snp.makeConstraints { (make) in
-    			make.edges.equalToSuperview()
-    		}
+override func viewDidLoad() {
+    super.viewDidLoad()
+    let tableview = UITableView.init().with {
+        $0.ssy.addHelp { (help) in
+            help.cellID = "SYDemo1TableViewCell"
+        }
     }
-	func dataSource() -> [BaseCellLayoutModel] {
-		var models:[BaseCellLayoutModel] = []
-		return models
-   }
+    tableview.help.dataSource = dataSource()
+    self.view.addSubview(tableview)
+    tableview.ssy_snp.makeConstraints { (make) in
+        make.edges.equalToSuperview()
+    }
+}
+    
+func dataSource() -> [BaseCellLayoutModel] {
+    var models:[BaseCellLayoutModel] = []
+    return models
+}
 ```
