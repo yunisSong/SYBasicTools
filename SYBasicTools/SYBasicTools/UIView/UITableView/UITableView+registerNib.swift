@@ -20,4 +20,5 @@ extension SSYHelp where Base :UITableView
 		}
 		self.base.register(NSClassFromString(cellClass), forCellReuseIdentifier: cellClass)
 	}
+	
 }

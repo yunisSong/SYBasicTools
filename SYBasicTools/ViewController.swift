@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: SYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,8 @@ class ViewController: UIViewController {
 		}
 		self.view.backgroundColor = .red
 		syprint("加载完成")
+		
+		
     }
 
 	func dataSource() -> [BaseCellLayoutModel] {
@@ -56,6 +58,15 @@ class ViewController: UIViewController {
 		return models
 		
 	}
-
+	
+	func loadNibView()  {
+		let view = SeacrchInputView.ssy.loadViewWithNib()
+		if let view = view {
+			self.view.addSubview(view)
+			view.ssy_snp.makeConstraints{
+				$0.edges.equalToSuperview()
+			}
+		}
+	}
 }
 

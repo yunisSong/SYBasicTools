@@ -38,6 +38,11 @@
 		785D9098282D006800EA87DF /* BaseCollectionViewCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9097282D006800EA87DF /* BaseCollectionViewCtr.swift */; };
 		785D909D282D00C100EA87DF /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D909C282D00C100EA87DF /* NSObject+ClassName.swift */; };
 		7894CA5027DEEA7D002A00D5 /* String+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7894CA4F27DEEA7D002A00D5 /* String+loadNib.swift */; };
+		789ED9EA282E29EE00CD49B0 /* UIColor2image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED9E9282E29EE00CD49B0 /* UIColor2image.swift */; };
+		789ED9F5282E3CD800CD49B0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED9F4282E3CD800CD49B0 /* RoundButton.swift */; };
+		789ED9FD282E426700CD49B0 /* SeacrchInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED9FC282E426700CD49B0 /* SeacrchInputView.swift */; };
+		789EDA02282E427700CD49B0 /* SeacrchInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789EDA01282E427700CD49B0 /* SeacrchInputView.xib */; };
+		789EDA0B282E42F200CD49B0 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789EDA0A282E42F200CD49B0 /* UIView+loadNib.swift */; };
 		8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */; };
 		8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */; };
 		8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2FA27DD045D00C4D9CA /* ViewController.swift */; };
@@ -106,6 +111,11 @@
 		785D9097282D006800EA87DF /* BaseCollectionViewCtr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCtr.swift; sourceTree = "<group>"; };
 		785D909C282D00C100EA87DF /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		7894CA4F27DEEA7D002A00D5 /* String+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+loadNib.swift"; sourceTree = "<group>"; };
+		789ED9E9282E29EE00CD49B0 /* UIColor2image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor2image.swift; sourceTree = "<group>"; };
+		789ED9F4282E3CD800CD49B0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		789ED9FC282E426700CD49B0 /* SeacrchInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeacrchInputView.swift; sourceTree = "<group>"; };
+		789EDA01282E427700CD49B0 /* SeacrchInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeacrchInputView.xib; sourceTree = "<group>"; };
+		789EDA0A282E42F200CD49B0 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 		8BDAF2F327DD045D00C4D9CA /* SYBasicTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYBasicTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +177,7 @@
 		7831A4BF282CE6F700E28D98 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				789EDA12282E431D00CD49B0 /* Nib */,
 				7831A4D4282CEBD700E28D98 /* UIImageView */,
 				7831A4C0282CE7BD00E28D98 /* UITableView */,
 				7831A4E2282CEE7100E28D98 /* UIView+SSYCompatible.swift */,
@@ -270,6 +281,55 @@
 			path = BaseCtr;
 			sourceTree = "<group>";
 		};
+		789ED9E8282E29D800CD49B0 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				789ED9E9282E29EE00CD49B0 /* UIColor2image.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		789ED9F1282E3CA300CD49B0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		789ED9F2282E3CAA00CD49B0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				789EDA06282E428400CD49B0 /* SearchInputView */,
+				789ED9F3282E3CC300CD49B0 /* Button */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		789ED9F3282E3CC300CD49B0 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				789ED9F4282E3CD800CD49B0 /* RoundButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		789EDA06282E428400CD49B0 /* SearchInputView */ = {
+			isa = PBXGroup;
+			children = (
+				789ED9FC282E426700CD49B0 /* SeacrchInputView.swift */,
+				789EDA01282E427700CD49B0 /* SeacrchInputView.xib */,
+			);
+			path = SearchInputView;
+			sourceTree = "<group>";
+		};
+		789EDA12282E431D00CD49B0 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				789EDA0A282E42F200CD49B0 /* UIView+loadNib.swift */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
 		8BDAF2EA27DD045D00C4D9CA = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +390,9 @@
 		8BDAF32927DD047100C4D9CA /* SYBasicTools */ = {
 			isa = PBXGroup;
 			children = (
+				789ED9F2282E3CAA00CD49B0 /* UI */,
+				789ED9F1282E3CA300CD49B0 /* Tool */,
+				789ED9E8282E29D800CD49B0 /* UIColor */,
 				785D9087282CFFB000EA87DF /* BaseCtr */,
 				7831A4CB282CE91100E28D98 /* Base */,
 				7831A4BF282CE6F700E28D98 /* UIView */,
@@ -468,6 +531,7 @@
 				785D906C282CFA3900EA87DF /* iOS-Info.plist in Resources */,
 				785D906B282CFA3900EA87DF /* watchOS-Info.plist in Resources */,
 				8BDAF30027DD045F00C4D9CA /* Assets.xcassets in Resources */,
+				789EDA02282E427700CD49B0 /* SeacrchInputView.xib in Resources */,
 				8BDAF2FE27DD045D00C4D9CA /* Main.storyboard in Resources */,
 				785D9079282CFCA900EA87DF /* SYDemo1TableViewCell.xib in Resources */,
 				785D906A282CFA3900EA87DF /* macOS-Info.plist in Resources */,
@@ -537,11 +601,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789ED9FD282E426700CD49B0 /* SeacrchInputView.swift in Sources */,
 				785D9078282CFCA900EA87DF /* SYDemo1TableViewCell.swift in Sources */,
 				785D908E282D003A00EA87DF /* BaseScrollContainerViewController.swift in Sources */,
 				7831A502282CF3F200E28D98 /* UITableView+MJRefresh.swift in Sources */,
 				785D9059282CF9F400EA87DF /* UIColor+config.swift in Sources */,
 				8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */,
+				789ED9EA282E29EE00CD49B0 /* UIColor2image.swift in Sources */,
 				8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */,
 				7831A4DE282CEDD500E28D98 /* BaseCellLayoutModel.swift in Sources */,
 				7831A4C7282CE81000E28D98 /* SYTableViewHelp.swift in Sources */,
@@ -550,6 +616,8 @@
 				7831A4E8282CEFD300E28D98 /* SYBaseFunction.swift in Sources */,
 				7831A4E3282CEE7100E28D98 /* UIView+SSYCompatible.swift in Sources */,
 				785D9068282CFA3900EA87DF /* UIColorExtension.swift in Sources */,
+				789ED9F5282E3CD800CD49B0 /* RoundButton.swift in Sources */,
+				789EDA0B282E42F200CD49B0 /* UIView+loadNib.swift in Sources */,
 				785D9093282D005600EA87DF /* BaseTableViewController.swift in Sources */,
 				785D905B282CF9F400EA87DF /* UIFont+config.swift in Sources */,
 				7831A4C2282CE7FA00E28D98 /* UITableView+layoutHelp.swift in Sources */,
