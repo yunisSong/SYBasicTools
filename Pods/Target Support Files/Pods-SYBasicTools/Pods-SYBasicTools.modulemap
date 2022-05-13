@@ -1,6 +1,0 @@
-framework module Pods_SYBasicTools {
-  umbrella header "Pods-SYBasicTools-umbrella.h"
-
-  export *
-  module * { export * }
-}
