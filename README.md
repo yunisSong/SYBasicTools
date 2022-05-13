@@ -34,8 +34,8 @@ func loadNibView()  {
 	let view = SeacrchInputView.ssy.loadViewWithNib()
 	if let view = view {
 		self.view.addSubview(view)
-		view.ssy_snp.makeConstraints{
-			$0.edges.equalToSuperview()
+		view.ssy_snp.makeConstraints {
+        $0.edges.equalToSuperview()
 		}
 	}
 }
