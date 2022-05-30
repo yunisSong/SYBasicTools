@@ -43,6 +43,14 @@
 		789ED9FD282E426700CD49B0 /* SeacrchInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED9FC282E426700CD49B0 /* SeacrchInputView.swift */; };
 		789EDA02282E427700CD49B0 /* SeacrchInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789EDA01282E427700CD49B0 /* SeacrchInputView.xib */; };
 		789EDA0B282E42F200CD49B0 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789EDA0A282E42F200CD49B0 /* UIView+loadNib.swift */; };
+		78E26FDC2844B46400C44ACC /* String2URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E26FDB2844B46400C44ACC /* String2URL.swift */; };
+		78E26FE22844B58F00C44ACC /* UICollectionView+registerNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E26FE12844B58F00C44ACC /* UICollectionView+registerNib.swift */; };
+		78E26FEE2844B7C000C44ACC /* SYCollectionViewHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E26FED2844B7C000C44ACC /* SYCollectionViewHelp.swift */; };
+		78E26FF92844B8D800C44ACC /* UICollectionView+MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E26FF82844B8D800C44ACC /* UICollectionView+MJRefresh.swift */; };
+		78E26FFE2844BB7F00C44ACC /* SYBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E26FFD2844BB7F00C44ACC /* SYBaseCollectionCell.swift */; };
+		78E270032844BBE200C44ACC /* SYSelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E270022844BBE200C44ACC /* SYSelectImageView.swift */; };
+		78E270092844BCFC00C44ACC /* SYImageListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E270072844BCFC00C44ACC /* SYImageListCollectionViewCell.swift */; };
+		78E2700A2844BCFC00C44ACC /* SYImageListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E270082844BCFC00C44ACC /* SYImageListCollectionViewCell.xib */; };
 		8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */; };
 		8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */; };
 		8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2FA27DD045D00C4D9CA /* ViewController.swift */; };
@@ -116,6 +124,14 @@
 		789ED9FC282E426700CD49B0 /* SeacrchInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeacrchInputView.swift; sourceTree = "<group>"; };
 		789EDA01282E427700CD49B0 /* SeacrchInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeacrchInputView.xib; sourceTree = "<group>"; };
 		789EDA0A282E42F200CD49B0 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
+		78E26FDB2844B46400C44ACC /* String2URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String2URL.swift; sourceTree = "<group>"; };
+		78E26FE12844B58F00C44ACC /* UICollectionView+registerNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+registerNib.swift"; sourceTree = "<group>"; };
+		78E26FED2844B7C000C44ACC /* SYCollectionViewHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYCollectionViewHelp.swift; sourceTree = "<group>"; };
+		78E26FF82844B8D800C44ACC /* UICollectionView+MJRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+MJRefresh.swift"; sourceTree = "<group>"; };
+		78E26FFD2844BB7F00C44ACC /* SYBaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYBaseCollectionCell.swift; sourceTree = "<group>"; };
+		78E270022844BBE200C44ACC /* SYSelectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYSelectImageView.swift; sourceTree = "<group>"; };
+		78E270072844BCFC00C44ACC /* SYImageListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYImageListCollectionViewCell.swift; sourceTree = "<group>"; };
+		78E270082844BCFC00C44ACC /* SYImageListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYImageListCollectionViewCell.xib; sourceTree = "<group>"; };
 		8BDAF2F327DD045D00C4D9CA /* SYBasicTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYBasicTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +193,7 @@
 		7831A4BF282CE6F700E28D98 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				78E26FE02844B57A00C44ACC /* UICollectionView */,
 				789EDA12282E431D00CD49B0 /* Nib */,
 				7831A4D4282CEBD700E28D98 /* UIImageView */,
 				7831A4C0282CE7BD00E28D98 /* UITableView */,
@@ -232,8 +249,9 @@
 			isa = PBXGroup;
 			children = (
 				785D905F282CFA3800EA87DF /* HEXColor */,
-				7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */,
 				7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */,
+				7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */,
+				78E26FF82844B8D800C44ACC /* UICollectionView+MJRefresh.swift */,
 			);
 			path = SYVendor;
 			sourceTree = "<group>";
@@ -299,6 +317,7 @@
 		789ED9F2282E3CAA00CD49B0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				78E26FEC2844B78D00C44ACC /* SelectImageView */,
 				789EDA06282E428400CD49B0 /* SearchInputView */,
 				789ED9F3282E3CC300CD49B0 /* Button */,
 			);
@@ -328,6 +347,26 @@
 				789EDA0A282E42F200CD49B0 /* UIView+loadNib.swift */,
 			);
 			path = Nib;
+			sourceTree = "<group>";
+		};
+		78E26FE02844B57A00C44ACC /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				78E26FE12844B58F00C44ACC /* UICollectionView+registerNib.swift */,
+				78E26FED2844B7C000C44ACC /* SYCollectionViewHelp.swift */,
+				78E26FFD2844BB7F00C44ACC /* SYBaseCollectionCell.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		78E26FEC2844B78D00C44ACC /* SelectImageView */ = {
+			isa = PBXGroup;
+			children = (
+				78E270022844BBE200C44ACC /* SYSelectImageView.swift */,
+				78E270072844BCFC00C44ACC /* SYImageListCollectionViewCell.swift */,
+				78E270082844BCFC00C44ACC /* SYImageListCollectionViewCell.xib */,
+			);
+			path = SelectImageView;
 			sourceTree = "<group>";
 		};
 		8BDAF2EA27DD045D00C4D9CA = {
@@ -409,6 +448,7 @@
 				8BDAF33827DD0A3200C4D9CA /* String+trim.swift */,
 				8BDAF35C27DEC9AD00C4D9CA /* todo.txt */,
 				7894CA4F27DEEA7D002A00D5 /* String+loadNib.swift */,
+				78E26FDB2844B46400C44ACC /* String2URL.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -528,6 +568,7 @@
 			files = (
 				8BDAF35D27DEC9AD00C4D9CA /* todo.txt in Resources */,
 				8BDAF30327DD045F00C4D9CA /* LaunchScreen.storyboard in Resources */,
+				78E2700A2844BCFC00C44ACC /* SYImageListCollectionViewCell.xib in Resources */,
 				785D906C282CFA3900EA87DF /* iOS-Info.plist in Resources */,
 				785D906B282CFA3900EA87DF /* watchOS-Info.plist in Resources */,
 				8BDAF30027DD045F00C4D9CA /* Assets.xcassets in Resources */,
@@ -603,17 +644,21 @@
 			files = (
 				789ED9FD282E426700CD49B0 /* SeacrchInputView.swift in Sources */,
 				785D9078282CFCA900EA87DF /* SYDemo1TableViewCell.swift in Sources */,
+				78E26FF92844B8D800C44ACC /* UICollectionView+MJRefresh.swift in Sources */,
 				785D908E282D003A00EA87DF /* BaseScrollContainerViewController.swift in Sources */,
 				7831A502282CF3F200E28D98 /* UITableView+MJRefresh.swift in Sources */,
 				785D9059282CF9F400EA87DF /* UIColor+config.swift in Sources */,
 				8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */,
 				789ED9EA282E29EE00CD49B0 /* UIColor2image.swift in Sources */,
 				8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */,
+				78E26FDC2844B46400C44ACC /* String2URL.swift in Sources */,
 				7831A4DE282CEDD500E28D98 /* BaseCellLayoutModel.swift in Sources */,
 				7831A4C7282CE81000E28D98 /* SYTableViewHelp.swift in Sources */,
 				785D9098282D006800EA87DF /* BaseCollectionViewCtr.swift in Sources */,
 				785D9072282CFA7A00EA87DF /* UILabel+config.swift in Sources */,
+				78E26FEE2844B7C000C44ACC /* SYCollectionViewHelp.swift in Sources */,
 				7831A4E8282CEFD300E28D98 /* SYBaseFunction.swift in Sources */,
+				78E26FE22844B58F00C44ACC /* UICollectionView+registerNib.swift in Sources */,
 				7831A4E3282CEE7100E28D98 /* UIView+SSYCompatible.swift in Sources */,
 				785D9068282CFA3900EA87DF /* UIColorExtension.swift in Sources */,
 				789ED9F5282E3CD800CD49B0 /* RoundButton.swift in Sources */,
@@ -625,6 +670,7 @@
 				785D907E282CFE5700EA87DF /* SYBaseCell.swift in Sources */,
 				785D909D282D00C100EA87DF /* NSObject+ClassName.swift in Sources */,
 				785D9052282CF93A00EA87DF /* SYDemoTableViewCell.swift in Sources */,
+				78E270032844BBE200C44ACC /* SYSelectImageView.swift in Sources */,
 				785D9083282CFEBC00EA87DF /* SYBaseModel.swift in Sources */,
 				8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */,
 				7831A4D6282CECDC00E28D98 /* UITableView+registerNib.swift in Sources */,
@@ -633,7 +679,9 @@
 				7831A4CD282CE93600E28D98 /* SYThen.swift in Sources */,
 				7894CA5027DEEA7D002A00D5 /* String+loadNib.swift in Sources */,
 				7831A51C282CF50000E28D98 /* UIView+SnapKit.swift in Sources */,
+				78E26FFE2844BB7F00C44ACC /* SYBaseCollectionCell.swift in Sources */,
 				785D905A282CF9F400EA87DF /* SYConfig.swift in Sources */,
+				78E270092844BCFC00C44ACC /* SYImageListCollectionViewCell.swift in Sources */,
 				8BDAF33427DD054E00C4D9CA /* String2Image.swift in Sources */,
 				785D906D282CFA3900EA87DF /* StringExtension.swift in Sources */,
 				8BDAF32F27DD04C300C4D9CA /* SSYCompatibleProtocol.swift in Sources */,

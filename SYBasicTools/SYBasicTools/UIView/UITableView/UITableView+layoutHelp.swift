@@ -32,27 +32,7 @@ extension SSYHelp where Base: UITableView {
 	
 	
 }
-extension SSYHelp where Base: UITableView {
-	func beginRefreshing()  {
-		self.sy_header?.beginRefreshing()
-	}
-	func refreshingBlock(_ handle:@escaping ()->Void) {
-		self.creatHeader(handle)
-	}
-	func endRefreshing()  {
-		self.sy_header?.endRefreshing()
-	}
 
-	func beginLoadMore()  {
-		self.sy_footer?.beginRefreshing()
-	}
-	func loadMoreBlock(_ handle:@escaping ()->Void) {
-		self.creatFooter(handle)
-	}
-	func endLoadMore()  {
-		self.sy_footer?.endRefreshing()
-	}
-}
 
 
 
