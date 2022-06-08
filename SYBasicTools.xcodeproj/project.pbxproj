@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		41F9A537C3D415AA4D2DBD96 /* Pods_SYBasicTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCEA56DAC7B0CF562C9412 /* Pods_SYBasicTools.framework */; };
+		78016B9A285050BB00375643 /* SYADMiddleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78016B99285050BB00375643 /* SYADMiddleLayout.swift */; };
 		7831A4C2282CE7FA00E28D98 /* UITableView+layoutHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4C1282CE7FA00E28D98 /* UITableView+layoutHelp.swift */; };
 		7831A4C7282CE81000E28D98 /* SYTableViewHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4C6282CE81000E28D98 /* SYTableViewHelp.swift */; };
 		7831A4CD282CE93600E28D98 /* SYThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4CC282CE93600E28D98 /* SYThen.swift */; };
@@ -17,7 +18,6 @@
 		7831A4E8282CEFD300E28D98 /* SYBaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A4E7282CEFD300E28D98 /* SYBaseFunction.swift */; };
 		7831A502282CF3F200E28D98 /* UITableView+MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */; };
 		7831A51C282CF50000E28D98 /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */; };
-		785D9052282CF93A00EA87DF /* SYDemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9051282CF93A00EA87DF /* SYDemoTableViewCell.swift */; };
 		785D9059282CF9F400EA87DF /* UIColor+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9056282CF9F400EA87DF /* UIColor+config.swift */; };
 		785D905A282CF9F400EA87DF /* SYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9057282CF9F400EA87DF /* SYConfig.swift */; };
 		785D905B282CF9F400EA87DF /* UIFont+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D9058282CF9F400EA87DF /* UIFont+config.swift */; };
@@ -51,6 +51,12 @@
 		78E270032844BBE200C44ACC /* SYSelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E270022844BBE200C44ACC /* SYSelectImageView.swift */; };
 		78E270092844BCFC00C44ACC /* SYImageListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E270072844BCFC00C44ACC /* SYImageListCollectionViewCell.swift */; };
 		78E2700A2844BCFC00C44ACC /* SYImageListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E270082844BCFC00C44ACC /* SYImageListCollectionViewCell.xib */; };
+		78E270102845A11C00C44ACC /* SYADScrollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2700F2845A11C00C44ACC /* SYADScrollowView.swift */; };
+		78E270182845A64300C44ACC /* UICollectionView+layoutHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E270172845A64300C44ACC /* UICollectionView+layoutHelp.swift */; };
+		78E2701E2845A85E00C44ACC /* SYADCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2701C2845A85E00C44ACC /* SYADCell.swift */; };
+		78E2701F2845A85E00C44ACC /* SYADCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E2701D2845A85E00C44ACC /* SYADCell.xib */; };
+		78E270242845A95200C44ACC /* UIImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E270232845A95200C44ACC /* UIImageView+Kingfisher.swift */; };
+		78E2702D2845AAE100C44ACC /* SYADDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2702C2845AAE100C44ACC /* SYADDemoViewController.swift */; };
 		8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */; };
 		8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */; };
 		8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAF2FA27DD045D00C4D9CA /* ViewController.swift */; };
@@ -88,6 +94,7 @@
 
 /* Begin PBXFileReference section */
 		73A2BD4544589159383EBA46 /* Pods-SYBasicTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYBasicTools.release.xcconfig"; path = "Target Support Files/Pods-SYBasicTools/Pods-SYBasicTools.release.xcconfig"; sourceTree = "<group>"; };
+		78016B99285050BB00375643 /* SYADMiddleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYADMiddleLayout.swift; sourceTree = "<group>"; };
 		7831A4C1282CE7FA00E28D98 /* UITableView+layoutHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+layoutHelp.swift"; sourceTree = "<group>"; };
 		7831A4C6282CE81000E28D98 /* SYTableViewHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYTableViewHelp.swift; sourceTree = "<group>"; };
 		7831A4CC282CE93600E28D98 /* SYThen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYThen.swift; sourceTree = "<group>"; };
@@ -97,7 +104,6 @@
 		7831A4E7282CEFD300E28D98 /* SYBaseFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYBaseFunction.swift; sourceTree = "<group>"; };
 		7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+MJRefresh.swift"; sourceTree = "<group>"; };
 		7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SnapKit.swift"; sourceTree = "<group>"; };
-		785D9051282CF93A00EA87DF /* SYDemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYDemoTableViewCell.swift; sourceTree = "<group>"; };
 		785D9056282CF9F400EA87DF /* UIColor+config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+config.swift"; sourceTree = "<group>"; };
 		785D9057282CF9F400EA87DF /* SYConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYConfig.swift; sourceTree = "<group>"; };
 		785D9058282CF9F400EA87DF /* UIFont+config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+config.swift"; sourceTree = "<group>"; };
@@ -132,6 +138,12 @@
 		78E270022844BBE200C44ACC /* SYSelectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYSelectImageView.swift; sourceTree = "<group>"; };
 		78E270072844BCFC00C44ACC /* SYImageListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYImageListCollectionViewCell.swift; sourceTree = "<group>"; };
 		78E270082844BCFC00C44ACC /* SYImageListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYImageListCollectionViewCell.xib; sourceTree = "<group>"; };
+		78E2700F2845A11C00C44ACC /* SYADScrollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYADScrollowView.swift; sourceTree = "<group>"; };
+		78E270172845A64300C44ACC /* UICollectionView+layoutHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+layoutHelp.swift"; sourceTree = "<group>"; };
+		78E2701C2845A85E00C44ACC /* SYADCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYADCell.swift; sourceTree = "<group>"; };
+		78E2701D2845A85E00C44ACC /* SYADCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYADCell.xib; sourceTree = "<group>"; };
+		78E270232845A95200C44ACC /* UIImageView+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		78E2702C2845AAE100C44ACC /* SYADDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYADDemoViewController.swift; sourceTree = "<group>"; };
 		8BDAF2F327DD045D00C4D9CA /* SYBasicTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYBasicTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDAF2F627DD045D00C4D9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDAF2F827DD045D00C4D9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -252,6 +264,7 @@
 				7831A51B282CF50000E28D98 /* UIView+SnapKit.swift */,
 				7831A501282CF3F200E28D98 /* UITableView+MJRefresh.swift */,
 				78E26FF82844B8D800C44ACC /* UICollectionView+MJRefresh.swift */,
+				78E270232845A95200C44ACC /* UIImageView+Kingfisher.swift */,
 			);
 			path = SYVendor;
 			sourceTree = "<group>";
@@ -259,7 +272,7 @@
 		785D9050282CF91D00EA87DF /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				785D9051282CF93A00EA87DF /* SYDemoTableViewCell.swift */,
+				78E2702B2845AAC500C44ACC /* ADDemo */,
 				785D9076282CFCA900EA87DF /* SYDemo1TableViewCell.swift */,
 				785D9077282CFCA900EA87DF /* SYDemo1TableViewCell.xib */,
 			);
@@ -317,6 +330,7 @@
 		789ED9F2282E3CAA00CD49B0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				78E2700E2845A0DA00C44ACC /* ADScrollowView */,
 				78E26FEC2844B78D00C44ACC /* SelectImageView */,
 				789EDA06282E428400CD49B0 /* SearchInputView */,
 				789ED9F3282E3CC300CD49B0 /* Button */,
@@ -355,6 +369,7 @@
 				78E26FE12844B58F00C44ACC /* UICollectionView+registerNib.swift */,
 				78E26FED2844B7C000C44ACC /* SYCollectionViewHelp.swift */,
 				78E26FFD2844BB7F00C44ACC /* SYBaseCollectionCell.swift */,
+				78E270172845A64300C44ACC /* UICollectionView+layoutHelp.swift */,
 			);
 			path = UICollectionView;
 			sourceTree = "<group>";
@@ -367,6 +382,25 @@
 				78E270082844BCFC00C44ACC /* SYImageListCollectionViewCell.xib */,
 			);
 			path = SelectImageView;
+			sourceTree = "<group>";
+		};
+		78E2700E2845A0DA00C44ACC /* ADScrollowView */ = {
+			isa = PBXGroup;
+			children = (
+				78E2700F2845A11C00C44ACC /* SYADScrollowView.swift */,
+				78E2701C2845A85E00C44ACC /* SYADCell.swift */,
+				78E2701D2845A85E00C44ACC /* SYADCell.xib */,
+				78016B99285050BB00375643 /* SYADMiddleLayout.swift */,
+			);
+			path = ADScrollowView;
+			sourceTree = "<group>";
+		};
+		78E2702B2845AAC500C44ACC /* ADDemo */ = {
+			isa = PBXGroup;
+			children = (
+				78E2702C2845AAE100C44ACC /* SYADDemoViewController.swift */,
+			);
+			path = ADDemo;
 			sourceTree = "<group>";
 		};
 		8BDAF2EA27DD045D00C4D9CA = {
@@ -567,6 +601,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDAF35D27DEC9AD00C4D9CA /* todo.txt in Resources */,
+				78E2701F2845A85E00C44ACC /* SYADCell.xib in Resources */,
 				8BDAF30327DD045F00C4D9CA /* LaunchScreen.storyboard in Resources */,
 				78E2700A2844BCFC00C44ACC /* SYImageListCollectionViewCell.xib in Resources */,
 				785D906C282CFA3900EA87DF /* iOS-Info.plist in Resources */,
@@ -643,15 +678,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				789ED9FD282E426700CD49B0 /* SeacrchInputView.swift in Sources */,
+				78E270242845A95200C44ACC /* UIImageView+Kingfisher.swift in Sources */,
 				785D9078282CFCA900EA87DF /* SYDemo1TableViewCell.swift in Sources */,
 				78E26FF92844B8D800C44ACC /* UICollectionView+MJRefresh.swift in Sources */,
 				785D908E282D003A00EA87DF /* BaseScrollContainerViewController.swift in Sources */,
 				7831A502282CF3F200E28D98 /* UITableView+MJRefresh.swift in Sources */,
 				785D9059282CF9F400EA87DF /* UIColor+config.swift in Sources */,
+				78E2701E2845A85E00C44ACC /* SYADCell.swift in Sources */,
 				8BDAF2FB27DD045D00C4D9CA /* ViewController.swift in Sources */,
 				789ED9EA282E29EE00CD49B0 /* UIColor2image.swift in Sources */,
 				8BDAF2F727DD045D00C4D9CA /* AppDelegate.swift in Sources */,
 				78E26FDC2844B46400C44ACC /* String2URL.swift in Sources */,
+				78E270102845A11C00C44ACC /* SYADScrollowView.swift in Sources */,
 				7831A4DE282CEDD500E28D98 /* BaseCellLayoutModel.swift in Sources */,
 				7831A4C7282CE81000E28D98 /* SYTableViewHelp.swift in Sources */,
 				785D9098282D006800EA87DF /* BaseCollectionViewCtr.swift in Sources */,
@@ -669,12 +707,13 @@
 				8BDAF33927DD0A3200C4D9CA /* String+trim.swift in Sources */,
 				785D907E282CFE5700EA87DF /* SYBaseCell.swift in Sources */,
 				785D909D282D00C100EA87DF /* NSObject+ClassName.swift in Sources */,
-				785D9052282CF93A00EA87DF /* SYDemoTableViewCell.swift in Sources */,
 				78E270032844BBE200C44ACC /* SYSelectImageView.swift in Sources */,
+				78016B9A285050BB00375643 /* SYADMiddleLayout.swift in Sources */,
 				785D9083282CFEBC00EA87DF /* SYBaseModel.swift in Sources */,
 				8BDAF2F927DD045D00C4D9CA /* SceneDelegate.swift in Sources */,
 				7831A4D6282CECDC00E28D98 /* UITableView+registerNib.swift in Sources */,
 				785D9089282CFFFE00EA87DF /* SYBaseViewController.swift in Sources */,
+				78E270182845A64300C44ACC /* UICollectionView+layoutHelp.swift in Sources */,
 				785D9069282CFA3900EA87DF /* UIColorInputError.swift in Sources */,
 				7831A4CD282CE93600E28D98 /* SYThen.swift in Sources */,
 				7894CA5027DEEA7D002A00D5 /* String+loadNib.swift in Sources */,
@@ -685,6 +724,7 @@
 				8BDAF33427DD054E00C4D9CA /* String2Image.swift in Sources */,
 				785D906D282CFA3900EA87DF /* StringExtension.swift in Sources */,
 				8BDAF32F27DD04C300C4D9CA /* SSYCompatibleProtocol.swift in Sources */,
+				78E2702D2845AAE100C44ACC /* SYADDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

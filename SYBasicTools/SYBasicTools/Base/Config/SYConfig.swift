@@ -27,6 +27,7 @@ func SYDefaultSearchViewHeight(_ showRightView:Bool = true) -> CGFloat {
 var filtrateMenuViewHeight =  CGFloat(62)
 /** 状态栏高度 */
 var SYStatusHeight:CGFloat = {
+	
 	var staus = UIApplication.shared.statusBarFrame
 	return staus.height
 }()
@@ -83,19 +84,11 @@ func sy_addNotificationObserver(observer:Any,selector:Selector,name:String) {
 
 var Notification_ShowLoginCtr = "Notification_ShowLoginCtr"
 var Notification_ShowMainCtr = "Notification_ShowMainCtr"
-//显示已完成工单页面
-var Notification_ShowCompletedOrder = "Notification_ShowCompletedOrder"
-//显示未完成工单页面
-var Notification_ShowNotCompletedOrder = "Notification_ShowNotCompletedOrder"
 //消息数目发生了改变
 var Notification_SystemMsgCntChange = "Notification_SystemMsgCntChange"
 //用户头像发生了改变
 var Notification_UserHeadPortraitChange = "Notification_UserHeadPortraitChange"
-//工单数量发生变化
-var Notification_OrderCountChange = "Notification_OrderCountChange"
-
 // MARK: - key
-
 var isShowWelcome = "SY_isShowWelcome"
 
 func sy_setValue(value: Any?,key:String)  {

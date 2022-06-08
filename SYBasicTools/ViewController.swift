@@ -12,10 +12,14 @@ class ViewController: SYBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-		
+		self.title = "Demo"
 		let tableview = UITableView.init().with {
 			$0.ssy.addHelp { (help) in
 				help.cellID = "SYDemo1TableViewCell"
+				help.clickHnadle = {
+					[weak self] index,model in
+					self?.clickEvent(index: index, model: model)
+				}
 			}
 		}
 		tableview.help.dataSource = dataSource()
@@ -67,6 +71,14 @@ class ViewController: SYBaseViewController {
 				$0.edges.equalToSuperview()
 			}
 		}
+	}
+}
+
+
+extension ViewController {
+	func clickEvent(index:IndexPath,model:Any)  {
+		let ctr = SYADDemoViewController.init()
+		self.navigationController?.pushViewController(ctr, animated: true)
 	}
 }
 
