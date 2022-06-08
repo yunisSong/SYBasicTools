@@ -12,6 +12,10 @@ import UIKit
 3.
 
 */
+
+// TODO: - 1. 自动循环
+// TODO: - 2. 无限轮播
+
 protocol SYADScrollowModelProtocol {
 	var imageURL:String?{get set}
 	var imageName:String?{get set}
